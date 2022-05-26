@@ -2,8 +2,8 @@ package com.fundamentosplatzi.springboot.fundamentos.bean;
 
 public class MyBeanWithPropertiesImplement implements MyBeanWithProperties{
 
-    private String name;
-    private String apellido;
+    private final String name;
+    private final String apellido;
 
     public MyBeanWithPropertiesImplement(String name, String apellido){
         this.name=name;
